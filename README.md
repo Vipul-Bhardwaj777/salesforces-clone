@@ -1,1 +1,2 @@
-VimCrypt~03!ı‚‡è/%kIóô]…~3ØÃåTT6H€º­ÀSk‹EÌ3ˆîls|«Êšê‹ÿ{kå‚˜ZI²ZÈ6Rq`±ôZtçR	x8i {Å
+# Salesforces UI clone
+This is a clone website made using HTML CSS and JS.
