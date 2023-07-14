@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-violet:#032d60;
+    --primary-blue:#0176d3;
+    --hover-blue:#0b5cab;
+    --secondary-color:#181818;  
+    --btn-hover-blue:#b1d3ee;
+}
+
+body{
+    font-family:'poppins', sans-serif;
+    color: var(--primary-violet);
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+p{
+    font-size: 1.1rem;
+    font-family: 'roboto', sans-serif;
+    color: var(--secondary-color);
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul{
+    list-style: none;
+}
+
+.primary-btn{
+
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+    color: white;
+    background-color:var(--primary-blue);
+    border: none;
+    border-radius: 5px;
+}
+
+.secondary-btn{
+
+}
+
+/* utility classes */
+
+.flex{
+    display: flex;
+
+}
+.container{
+    max-width: 1250px;
+    margin-inline:auto;
+    padding-inline:20px;
+}
+
+nav{
+    height:16dvh;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+nav img{
+    max-width: 70px;
+    margin-inline-start: 20px;
+}
+
+.nav-list{
+    gap: 23px;
+    
+}
+
+.nav-list a{
+    color: #080707;
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+
+.nav-list li{
+
+    padding-top: 10px;
+}
+
+.nav-list i{
+    font-size: 18px;
+}
+
+.search{
+    padding: .7rem;
+    border-radius: 24px;
+    border: none;
+    background-color: white;
+}
+.search:hover{
+
+    background-color:var(--btn-hover-blue);
+    color: var(--hover-blue);
+}
+
+.globe{
+
+    padding: .7rem;
+    border-radius: 24px;
+    border: none;
+    background-color: white;
+}
+
+.globe:hover{
+    background-color:var(--btn-hover-blue);
+    color: var(--hover-blue);
+}
+
+.login{
+    color: #080707;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    
+}
+
+.login:hover{
+    background-color:var(--btn-hover-blue);
+    color: var(--hover-blue);
+    
+}
+
+.try-btn{
+
+    padding-inline: 20px;
+    background-color: #2e844a;
+
+
+}
+
+.try-btn:hover{
+    background-color: var(--primary-violet);
+}
+
+
+
+.banner{
+    height: 8dvh;
+    background-color: var(--primary-violet);
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+    
+
+
+.banner p{
+    color: white;
+    font-weight: bold;
+}
+
+.banner img{
+    width: 100px;
+}
+
+.banner a{
+    text-decoration: underline;
+    color: white;
+}
