@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;500&display=swap');
 
 * {
     padding: 0;
@@ -48,6 +48,7 @@ p {
 a {
     text-decoration: none;
     display: inline-block;
+    cursor: pointer;
 }
 
 ul {
@@ -79,6 +80,7 @@ ul {
     background-color: var(--primary-blue);
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .primary-btn:hover {
@@ -98,6 +100,7 @@ ul {
     color: var(--primary-blue);
     border: 2px solid var(--primary-blue);
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .secondary-btn:hover {
@@ -132,8 +135,8 @@ nav img {
 }
 
 .nav-list a {
-    color: #080707;
-    font-size: 16px;
+    color: var(--secondary-color);
+    font-size: 15.5px;
     font-weight: 500;
 
 }
@@ -157,6 +160,7 @@ nav img {
     border-radius: 24px;
     border: none;
     background-color: white;
+    cursor: pointer;
 }
 
 .search:hover {
@@ -172,6 +176,7 @@ nav img {
     border-radius: 24px;
     border: none;
     background-color: white;
+    cursor: pointer;
 }
 
 .globe:hover {
@@ -189,6 +194,7 @@ nav img {
     border-radius: 20px;
     padding: 10px;
     border: none;
+    cursor: pointer;
 
 }
 
@@ -309,7 +315,7 @@ nav img {
     height: 394px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 15px;
-   
+
 }
 
 .cards img {
@@ -318,7 +324,7 @@ nav img {
 
 }
 
-.cards h3 a{
+.cards h3 a {
     margin-block: 30px;
     font-weight: bold;
     line-height: 24px;
@@ -326,7 +332,7 @@ nav img {
     padding-left: 20px;
 }
 
-.cards a{
+.cards a {
     color: var(--secondary-color);
     font-size: 16px;
     text-decoration: underline;
@@ -334,22 +340,23 @@ nav img {
     padding-left: 20px;
 }
 
-.cards a:hover{
+.cards a:hover {
     color: var(--hover-blue);
- 
+
 }
 
-.cards p{
+.cards p {
     font-size: 14px;
     margin-bottom: 50px;
     padding-left: 20px;
     line-height: 20px;
 }
+
 .feature-btn {
     width: 230px;
 }
 
-.card-bg{
+.card-bg {
     background-image: url(media/pb-hp-products-bg.png);
     background-repeat: no-repeat;
     background-position: bottom;
@@ -359,31 +366,32 @@ nav img {
 
 /* CTA sections */
 
-.cta-section{
+.cta-section {
     flex-direction: column;
     gap: 5rem;
     max-width: 767px;
-    margin-inline:auto;
+    margin-inline: auto;
     margin-top: 64px;
     margin-bottom: 128px;
 
 }
 
-.cta-section2{
+.cta-section2 {
     flex-direction: column;
     gap: 5rem;
     max-width: 767px;
-    margin-inline:auto;
+    margin-inline: auto;
     margin-top: 64px;
     margin-bottom: 64px;
 
 }
 
-.cta-section h2{
+.cta-section h2 {
     font-size: 40px;
-    text-align:center
+    text-align: center
 }
-.cta-section p{
+
+.cta-section p {
     font-size: 18px;
     line-height: 28px;
     text-align: center;
@@ -392,23 +400,25 @@ nav img {
 
 /* Companies section  */
 
-.bg-companies{
+.bg-companies {
     height: 440px;
     background-image: url(media/pb-hp-logos-bg-2.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom;
+
 }
 
-.companies{
+
+.companies {
     height: 216px;
     flex-wrap: wrap;
-    justify-content:center;
+    justify-content: center;
     gap: 18px;
     line-height: 24px;
 }
 
-.small-cards{
+.small-cards {
     width: 200px;
     height: 100px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -417,14 +427,14 @@ nav img {
     background-color: white;
 }
 
-.small-cards img{
+.small-cards img {
     width: 136px;
-    
+
 }
 
 /* Feature section  */
 
-.feature2{
+.feature2 {
     height: 451px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 10px;
@@ -432,53 +442,106 @@ nav img {
     justify-content: space-between;
 }
 
-.feat-left{
+.feat-left {
     width: 450px;
     height: inherit;
     flex-direction: column;
     justify-content: center;
     align-items: start;
     margin-left: 110px;
-    gap: 90px; 
- 
+    gap: 90px;
+
 }
 
-.feat-left h2{
-    
+.feat-left h2 {
+
     font-size: 32px;
     line-height: 40px;
 }
-.feat-right img{
-    width:567px ;
+
+.feat-right img {
+    width: 567px;
 }
 
 
-.feature3{
+.feature3 {
     height: 451px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 10px;
     margin-top: 64px;
     background-image: url(media/pb-hp-footer-mid3-in.jpg);
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position-y:-270px ;
+    background-position-y: -270px;
 }
 
-.feature3 h2{
-    font-size: 32px;padding-top:64px;width: 600px;
+.feature3 h2 {
+    font-size: 32px;
+    padding-top: 64px;
+    width: 600px;
 }
 
-.fet3-p{
+.fet3-p {
     width: 550px;
 }
-.feature3 a{
-    font-size: 16px;color:var(--secondary-color);
+
+.feature3 a {
+    font-size: 16px;
+    color: var(--secondary-color);
     text-decoration: underline;
     padding-left: 20px;
     font-weight: 500;
 }
 
-.feature3 a:hover{
+.feature3 a:hover {
     color: var(--hover-blue);
     transition: .2s ease-out;
 }
+
+.feature4-bg {
+    height: 858px;
+    background-image: url(media/pb-hp-products-bg-2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    margin-top: 128px;
+
+}
+
+.feature4-hue {
+    background: linear-gradient(to top, rgb(190, 221, 243), white);
+}
+
+.feature4 {
+    flex-direction: column;
+}
+
+.feature4 h2 {
+    text-align: center;
+    max-width: 767px;
+    margin-inline: auto;
+}
+
+.feat4-cards {
+    width: 100%;
+    height: 333px;
+    margin-top: 64px;
+    justify-content: space-between;
+}
+
+.card1 {
+    width: 32%;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.card1 p {
+    font-size: 16px;
+}
+
+.card1-img img {
+    width: 100%;
+}
+
+/* Footer section */
