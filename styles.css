@@ -412,7 +412,14 @@ nav img {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom;
+    position: relative;
 
+}
+
+.overlap{
+    width: 100%;
+    position: absolute;
+    bottom: -10px;
 }
 
 
@@ -517,7 +524,7 @@ nav img {
     background-position: bottom;
     background-size: contain;
     margin-top: 128px;
-
+    position: relative;
 }
 
 .feature-hue {
