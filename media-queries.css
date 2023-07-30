@@ -1,0 +1,47 @@
+/* Laptop */
+
+@media screen and (max-width: 1024px) {
+
+    .nav-list li,
+    .globe,
+    .hide-txt {
+        display: none;
+    }
+
+   nav .ham{
+        display: block;
+        padding: 0rem;
+        font-size: 20px;
+    }
+
+    .try-btn {
+
+        background-color: #2e844a;
+        width: 110px;
+        height: 30px;
+        padding: 4px;
+    }
+
+    nav img {
+        width: 70px;
+        height: 35px;
+        margin-inline-start: 10px;
+
+
+    }
+
+    nav {
+        height: 56px;
+
+    }
+
+    .nav-list {
+        gap: 15px;
+
+    }
+
+    .nav-list i {
+        font-size: 16px;
+    }
+
+}

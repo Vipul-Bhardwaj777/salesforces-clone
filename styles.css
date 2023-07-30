@@ -19,11 +19,9 @@
 /* Resets */
 
 
-
 body {
     font-family: 'poppins', sans-serif;
     color: var(--primary-violet);
- 
 }
 
 
@@ -68,6 +66,10 @@ ul {
     max-width: 1167px;
     margin-inline: auto;
     padding-inline: 20px;
+}
+
+.overflow{
+    overflow: hidden;
 }
 
 .primary-btn {
@@ -122,6 +124,11 @@ nav {
     background-color: white;
     width: 100%;
     padding-inline: 30px;
+}
+
+nav .ham{
+    font-size: 18px;
+    display: none;
 }
 
 nav img {
@@ -198,6 +205,18 @@ nav img {
 
 }
 
+.hide-txt{
+    color: #080707;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
 .login:hover {
     background-color: var(--btn-hover-blue);
     color: var(--hover-blue);
@@ -220,9 +239,11 @@ nav img {
 
 /* Banner  */
 
+.top-banner{
+    background-color: var(--primary-violet);
+}
 .banner {
     height: 8dvh;
-    background-color: var(--primary-violet);
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -296,9 +317,13 @@ nav img {
 /* Feature section  */
 
 .card-bg {
-    max-width: 100dvw;
-
+    background-image: url(media/pb-hp-products-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    height: 826px;
 }
+
 
 .feature {
     flex-direction: column;
@@ -361,13 +386,6 @@ nav img {
     width: 230px;
 }
 
-.card-bg {
-    background-image: url(media/pb-hp-products-bg.png);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    height: 826px;
-    background-size: 1263px;
-}
 
 /* CTA sections */
 

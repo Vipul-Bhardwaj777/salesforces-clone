@@ -7,15 +7,19 @@
     <title>Salesforces-clone</title>
     <link rel="shortcut icon" href="media/logo-salesforce.svg" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
-
+    <link rel="stylesheet" href="media-queries.css">
 
 </head>
 
 <body>
 
-    <main>
+    <main class="overflow">
     <nav class=" flex">
+        <div class="wrap flex">
+            <i class="ham fa-solid fa-bars"></i>
         <a href="/"><img src="media/logo-salesforce.svg" alt="logo"></a>
+        </div>
+        
         <ul class="nav-list flex">
             <li><a href="#">Products</a></li>
             <li><a href="#">Industries</a></li>
@@ -26,16 +30,22 @@
             <li><a style="text-decoration: underline;" href="#">contactUs</a></li>
             <button class="search"><i class="  fa-sharp fa-solid fa-2x fa-magnifying-glass"></i></button>
             <button class="globe"><i class="  fa-sharp fa-solid fa-globe"></i></button>
-            <button class="login"><i class="fa-solid fa-user"></i> Login</button>
+            <button class="login"><i class="fa-solid fa-user"></i><span class="hide-txt">Login</span> </button>
             <button class="try-btn primary-btn">Try for free</button>
         </ul>
 
     </nav>
 
-    <div class="banner flex ">
-        <img src="media/df-white.png" alt="">
-        <p>Calling all Trailblazers. Dreamforce registration is open.</p>
-        <a href="#">Register Now</a>
+    <div class="top-banner">
+        <div class="container">
+            <div class="banner flex">
+                <img src="media/df-white.png" alt="">
+            <p>Calling all Trailblazers. Dreamforce registration is open.</p>
+            <a href="#">Register Now</a>
+            </div>
+        </div>
+        
+        
     </div>
 
 
