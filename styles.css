@@ -68,7 +68,7 @@ ul {
     padding-inline: 20px;
 }
 
-.overflow{
+.overflow {
     overflow: hidden;
 }
 
@@ -124,9 +124,11 @@ nav {
     background-color: white;
     width: 100%;
     padding-inline: 30px;
+    position: fixed;
+    top: 0px;
 }
 
-nav .ham{
+nav .ham {
     font-size: 18px;
     display: none;
 }
@@ -205,7 +207,7 @@ nav img {
 
 }
 
-.hide-txt{
+.hide-txt {
     color: #080707;
     font-size: 16px;
     font-weight: 500;
@@ -239,9 +241,11 @@ nav img {
 
 /* Banner  */
 
-.top-banner{
+.top-banner {
     background-color: var(--primary-violet);
+    margin-top: 16dvh;
 }
+
 .banner {
     height: 8dvh;
     justify-content: center;
@@ -344,7 +348,7 @@ nav img {
 
 }
 
-.cards:hover{
+.cards:hover {
     transform: scale(1.1);
 }
 
@@ -434,7 +438,7 @@ nav img {
 
 }
 
-.overlap{
+.overlap {
     width: 100%;
     position: absolute;
     bottom: -10px;
@@ -459,7 +463,7 @@ nav img {
     transition: all 0.2s linear;
 }
 
-.small-cards:hover{
+.small-cards:hover {
     transform: scale(1.1);
 }
 
@@ -570,7 +574,7 @@ nav img {
     width: 32%;
     flex-direction: column;
     gap: 20px;
-    
+
 
 }
 
@@ -586,15 +590,15 @@ nav img {
 
 /* Footer section */
 
-footer{
+footer {
     height: 70dvh;
     justify-content: space-between;
     width: 1050px;
     padding: 0;
-   margin-bottom: 64px;
+    margin-bottom: 64px;
 }
 
-.column-1{
+.column-1 {
     flex-direction: column;
     gap: 30px;
     align-items: start;
@@ -602,51 +606,54 @@ footer{
     margin: 0 15px;
 }
 
-.column-1 i{
+.column-1 i {
     font-size: 30px;
     color: #3d3a3add;
     margin-right: 15px;
     margin-bottom: 1rem;
 }
 
-.column-1 p{
+.column-1 p {
     font-weight: bold;
     font-size: 14px;
     margin-bottom: 5rem;
-    
+
 }
 
-.column-1 img{
+.column-1 img {
     margin-bottom: rem;
 }
 
-.column-2 h3{
+.column-2 h3 {
     margin-bottom: 25px;
 }
-.column-2a h3{
+
+.column-2a h3 {
     margin-bottom: 25px;
 }
-.column-2{
+
+.column-2 {
     align-items: start;
     flex-direction: column;
     gap: 10px;
     width: 24%;
     margin: 0 15px;
-    
-    
+
+
 }
 
-.column-2a{
+.column-2a {
     align-items: start;
     flex-direction: column;
     gap: 10px;
     width: 24%;
     margin: 0 15px;
     margin-top: 11rem;
-    
+
 }
 
-.column-2 a p,.column-2a a p{
+.column-2 a p,
+.column-2a a p {
     color: rgb(35, 126, 175);
     font-size: 12px;
     margin-bottom: 7px;
@@ -654,22 +661,22 @@ footer{
 
 /* Subfooter section */
 
-.subfooter{
+.subfooter {
     height: 18dvh;
     background-color: var(--primary-violet);
     align-items: center;
     justify-content: center;
 }
 
-.sub-container{
+.sub-container {
     max-width: 70%;
-    margin-inline:20px; 
+    margin-inline: 20px;
     padding-block: 10px;
     margin-bottom: 20px;
 }
 
-.subfooter button{
-    border:1.2px solid white;
+.subfooter button {
+    border: 1.2px solid white;
     background: transparent;
     color: white;
     font-weight: bold;
@@ -686,14 +693,14 @@ footer{
     font-weight: light;
 }
 
-.sub-container p{
+.sub-container p {
     font-size: 12px;
     color: white;
     margin-bottom: 20px;
-    
+
 }
 
-.sub-container a{
+.sub-container a {
     font-size: 10px;
     text-decoration: underline;
     color: rgb(74, 159, 244);
@@ -702,7 +709,7 @@ footer{
 
 /* Contact button */
 
-.contact{
+.contact {
     width: 130px;
     height: 48px;
     background-color: var(--primary-blue);
@@ -714,18 +721,19 @@ footer{
     bottom: 40px;
     right: 10px;
     cursor: pointer;
-    
+
 }
 
-.contact img{
+.contact img {
     width: 40px;
 }
-.contact p{
+
+.contact p {
     font-weight: bold;
     color: white;
     font-size: 14px;
     line-height: 18.2px;
     text-decoration: underline;
     margin-right: 10px;
-    
+
 }

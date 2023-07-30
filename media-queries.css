@@ -2,13 +2,15 @@
 
 @media screen and (max-width: 1024px) {
 
+    /* Nav bar  */
+
     .nav-list li,
     .globe,
     .hide-txt {
         display: none;
     }
 
-   nav .ham{
+    nav .ham {
         display: block;
         padding: 0rem;
         font-size: 20px;
@@ -35,6 +37,10 @@
 
     }
 
+    .top-banner {
+        margin-top: 56px;
+    }
+
     .nav-list {
         gap: 15px;
 
@@ -43,5 +49,72 @@
     .nav-list i {
         font-size: 16px;
     }
+
+    /* Hero section  */
+
+    .left {
+        margin-left: 35px;
+    }
+
+    .left h1 {
+        font-size: 45px;
+        line-height: 54px;
+    }
+
+    .right img {
+        width: 600px;
+    }
+
+
+    /* Featur 2 */
+
+    .feature2 {
+        width: 928px;
+        font-size: 32px;
+    }
+
+    .feat-left {
+        width: 500px;
+        margin-left: 60px;
+    }
+
+    .feat-left h2 {
+        font-size: 30px;
+
+    }
+
+
+    .feat-left .primary-btn {
+        width: 170px;
+    }
+
+    .feat-left .secondary-btn {
+        width: 152px;
+    }
+
+    .feat-right img {
+        width: 447px;
+    }
+
+    /* Feature 3 */
+
+    .feature3 {
+        width: 928px;
+        background-position-y: -124px;
+    }
+
+    .feature3 p {
+        width: 420px;
+    }
+
+    .feature3 h2 {
+        font-size: 30px;
+    }
+
+    .feature3 .primary-btn {
+        width: 149px;
+    }
+
+
 
 }
