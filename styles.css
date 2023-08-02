@@ -128,10 +128,15 @@ nav {
     top: 0px;
 }
 
+.hampage{
+    display: none;
+}
+
 nav .ham {
     font-size: 18px;
     display: none;
 }
+
 
 nav img {
     width: 70px;
