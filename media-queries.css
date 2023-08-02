@@ -535,3 +535,48 @@
         display: block;
     }
 }
+
+/* Small Mobile 375px */
+
+@media screen and (max-width:376px) {
+
+    .right img {
+        height: 426px;
+        width: 383px;
+        margin-bottom: 93px;
+    }
+
+    .feature h2 {
+        width: 327px;
+        font-size: 32px;
+    }
+
+    .feat-left h2{
+        width: 262px;
+    }
+
+    .feature2,.feature3{
+        width: 327px;
+    }
+
+    .feat-left{
+        height: 444px;
+    }
+
+    .feat-left .btns{
+        margin-bottom: 0;
+    }
+
+    .feat-right{
+        padding-bottom: 10px;
+        height: 277px;
+    }
+
+    .feat-right img{
+        width: 326px;
+    }
+
+    .sub-container{
+        width: 311px;
+    }
+}
