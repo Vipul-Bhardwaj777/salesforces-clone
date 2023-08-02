@@ -17,9 +17,27 @@
 
     <nav class=" flex">
         <div class="wrap flex">
-            <i class="ham fa-solid fa-bars"></i>
+            <i id="ham-click" class="ham fa-solid fa-bars"></i>
+            <div class="hampage">
+                <ul class="big-btns">
+                    <li><button class="flex"><h3>Products</h3><i class="fa-solid fa-chevron-right"></i></button></li>
+                    <li><button class="flex"><h3>Industries</h3><i class="fa-solid fa-chevron-right"></i></button></li>
+                    <li><button class="flex"><h3>Learning</h3><i class="fa-solid fa-chevron-right"></i></button></li>
+                    <li><button class="flex"><h3>Support</h3><i class="fa-solid fa-chevron-right"></i></button></li>
+                    <li><button class="flex"><h3>Company</h3><i class="fa-solid fa-chevron-right"></i></button></li>
+                    <li><button class="flex"><h3>Salesforce+</h3><i class="fa-solid fa-chevron-right"></i></button></li>
+                </ul>
+    
+                <ul class="small-btns">
+                    <li><button class="flex"><div class="ham-bottom"><i class="fa-solid fa-user"></i> Login </div><i class="fa-solid fa-chevron-right"></i></button></li>
+                    <li><button class="flex"><div class="ham-bottom"><i class="fa-solid fa-phone"></i> Contact </div><i class="fa-solid fa-chevron-right"></i></button></li>
+                    <li><button class="flex"><div class="ham-bottom"><i class="  fa-sharp fa-solid fa-globe"></i> Change Region </div><i class="fa-solid fa-chevron-right"></i></button></li>
+                </ul>
+                <p>1800-420-7332</p>
+            </div>
         <a href="/"><img src="media/logo-salesforce.svg" alt="logo"></a>
         </div>
+        
         
         <ul class="nav-list flex">
             <li><a href="#">Products</a></li>
@@ -366,6 +384,17 @@
 </main>
 
     <script src="https://kit.fontawesome.com/931580414f.js" crossorigin="anonymous"></script>
+    <script>
+        const hamClick = document.querySelector('#ham-click');
+        const hamPage = document.querySelector('.hampage');
+        const hamIcon = document.querySelector('.ham');
+        const xMark = document.querySelector('.xmark');
+
+        hamClick.addEventListener('click', () => {
+            hamPage.classList.toggle('active');
+        });
+
+    </script>
 </body>
 
 </html>
