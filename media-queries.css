@@ -18,7 +18,6 @@
 
     .try-btn {
 
-        background-color: #2e844a;
         width: 110px;
         height: 30px;
         padding: 4px;
@@ -123,17 +122,17 @@
 @media screen and (max-width:768px) {
     /* Hero section  */
 
-    header{
+    header {
         flex-direction: column;
         height: 750px;
     }
 
-    .left{
+    .left {
         width: 75%;
         margin-top: 64px;
     }
 
-    .right{
+    .right {
         justify-content: center;
         height: 300px;
     }
@@ -151,11 +150,11 @@
 
     /* Feature 1 */
 
-    .feature{
+    .feature {
         text-align: center;
         width: 100%;
         margin-inline: 10px;
-       
+
     }
 
     /* Card section  */
@@ -163,11 +162,12 @@
     .card-bg {
         height: 1362px;
     }
-    .cards{
+
+    .cards {
         width: calc(50% - 32px);
     }
 
-    .card-section{
+    .card-section {
         row-gap: 32px;
     }
 
@@ -177,33 +177,38 @@
         /* padding: 10px; */
     }
 
-    .cards p,a{
-     margin-inline:10px;
+    .cards p,
+    a {
+        margin-inline: 10px;
     }
- 
+
     /* Cta section  */
 
-    .cta-section{
+    .cta-section {
         width: 600px;
     }
 
-    .cta-section2 h2{
+    .cta-section2 h2 {
         width: 600px;
         text-align: center;
     }
 
+    /* Companies */
+    .overlap {
+        bottom: -5px;
+    }
 
-    .feature2 h2{
+    .feature2 h2 {
         width: 300px;
     }
 
-    .feature2 .btns{
+    .feature2 .btns {
         flex-direction: column;
         gap: 20px;
         padding: 0;
     }
 
-    .feature2 .secondary-btn{
+    .feature2 .secondary-btn {
         margin-right: 40px;
     }
 
@@ -213,29 +218,320 @@
         margin-top: 60%;
     }
 
-    .feature2,.feature3{
+    .feature2,
+    .feature3 {
         width: 704px;
         height: 573px;
         background-position-y: 1px;
         background-position-x: -200px;
     }
 
-    .cta1-btns{
+    .cta1-btns {
         flex-direction: column;
         gap: 32px;
     }
 
-    .cta1-btns a{
+    .cta1-btns a {
         padding: 0;
     }
 
-    footer{
+    footer {
         display: none !important;
     }
 
     /* Subfooter */
 
-    .subfooter{
+    .subfooter {
         height: 25dvh;
+    }
+
+}
+
+/* Mobile L 425px */
+
+@media screen and (max-width:426px) {
+
+    /* Nav  */
+    nav {
+        padding-inline: 25px;
+    }
+
+    .try-btn {
+        width: 94px;
+        font-size: small;
+    }
+
+    .wrap a {
+        margin: 0;
+    }
+
+    nav img {
+        height: 33px;
+    }
+
+    /* Top banner   */
+    .top-banner {
+        height: 28dvh;
+    }
+
+    .banner {
+        flex-direction: column;
+        height: 100%;
+        align-items: flex-start;
+        padding-top: 20px;
+    }
+
+    .banner a {
+        margin: 0;
+    }
+
+    .banner p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    /* Hero Section  */
+    .hero-bg {
+        height: 923px;
+        background-size: cover;
+        background-position-y: 1px;
+        background-position-x: -100px;
+    }
+
+    .hero-section {
+        gap: 80px;
+    }
+
+    .left {
+        width: 100%;
+        margin: 0;
+        margin-top: 50px;
+        justify-content: space-evenly;
+        gap: 20px;
+        padding: 4px;
+    }
+
+    .left .btns {
+        flex-direction: column;
+        margin: 0;
+        width: 100%;
+        gap: 15px;
+    }
+
+    .left .primary-btn {
+        width: 99%;
+        margin-inline: 0;
+    }
+
+    .left .secondary-btn {
+        width: 99%;
+        margin-inline: 0;
+    }
+
+    .left h1 {
+        font-size: 38px;
+        line-height: 1.4;
+    }
+
+    .left p {
+        font-size: 20px;
+        padding-right: 1rem;
+        margin-bottom: 15px;
+    }
+
+    .right img {
+        height: 500px;
+        width: 450px;
+    }
+
+    /* Feature section  */
+    .card-bg {
+        height: 2287px;
+    }
+
+    .feature {
+        padding: 0;
+        margin-inline: 0px;
+
+    }
+
+    .feature h2 {
+        width: 380px;
+    }
+
+    .cards {
+        width: 88%;
+    }
+
+    .cards h3 a {
+        font-size: 20px;
+    }
+
+    .cards p {
+        font-size: 16px;
+    }
+
+    .feature .feature-btn {
+        width: 88%;
+    }
+
+    /* CTA sections  */
+    .cta-section {
+        width: 90%;
+    }
+
+    .cta-section h2 {
+        font-size: 38px;
+        line-height: 1.3;
+    }
+
+    .cta-section p {
+        font-size: 19px;
+        line-height: 30px;
+    }
+
+    .cta-section .btns {
+        flex-direction: column;
+        margin-inline: auto;
+        width: 100%;
+        gap: 15px;
+    }
+
+    .cta-section .primary-btn,
+    .secondary-btn {
+        width: 99%;
+        margin-inline: auto;
+    }
+
+    .cta-section2 h2 {
+        width: 90%;
+        font-size: 38px;
+        line-height: 1.3;
+    }
+
+    .cta-section2 .secondary-btn {
+        width: 88%;
+    }
+
+    /* Companies */
+    .overlap {
+        bottom: -5px;
+    }
+
+    .small-cards {
+        width: 144px;
+        height: 74px;
+    }
+
+    /* Feature section  */
+
+    .feature2,
+    .feature3 {
+        width: 377px;
+        height: 749px;
+        flex-direction: column;
+    }
+
+    .feat-left {
+        width: 100%;
+        padding-top: 40px;
+        /* padding-left:32px ; */
+        margin-left: 40px;
+    }
+
+    .feat-left .btns {
+        width: 100%;
+        align-items: flex-start;
+        margin-bottom: 30px;
+    }
+
+    .feat-left .primary-btn {
+        width: 90%;
+        margin: 0;
+    }
+
+    .feat-left .secondary-btn {
+        width: 90%;
+        margin: 0;
+    }
+
+    .feat-right {
+        height: 320px;
+    }
+
+    .feat-right img {
+        margin: 0;
+    }
+
+    .feature4-bg {
+        height: 1450px;
+    }
+
+    .feat4-cards {
+        flex-wrap: wrap;
+    }
+
+    .feat4-cards .card1 {
+        width: 100%;
+        margin-bottom: 48px;
+    }
+
+    .card1 p {
+        font-size: 18px;
+    }
+
+    .feature3 .cta-section {
+        width: 100%;
+    }
+
+    .feature3 h2 {
+        width: 100%;
+        font-size: 32px;
+    }
+
+    .feature3 p {
+        font-size: 18px;
+        width: 94%;
+    }
+
+    .feature3 .cta1-btns {
+        width: 100%;
+    }
+
+    .feature3 {
+        background-size: contain;
+        background-position-y: bottom;
+        background-position-x: 0px;
+    }
+
+    /* Footer  */
+    .subfooter {
+        height: 253px;
+        flex-direction: column;
+    }
+
+    .sub-container {
+        width: 365px;
+    }
+
+    .sub-container a {
+        margin-left: 0;
+        font-size: 11px;
+    }
+
+    .subfooter button {
+        width: 146px;
+        height: 32px;
+        padding: 0;
+    }
+
+    /* Contact  */
+    /* Contact  */
+    .contact {
+        display: none;
+    }
+
+    .small-contact {
+        display: block;
     }
 }

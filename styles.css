@@ -432,6 +432,10 @@ nav img {
     max-width: 655px;
 }
 
+.cta-section2 button{
+    width: 210px;
+}
+
 /* Companies section  */
 
 .bg-companies {
@@ -676,7 +680,7 @@ footer {
 }
 
 .sub-container {
-    max-width: 70%;
+    width: 70%;
     margin-inline: 20px;
     padding-block: 10px;
     margin-bottom: 20px;
@@ -743,4 +747,27 @@ footer {
     text-decoration: underline;
     margin-right: 10px;
 
+}
+
+/* Small contact  */
+
+.small-contact{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    background-image: url(https://www.salesforce.com/etc/clientlibs/sfdc-www/clientlibs_www_livechat/img/call-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--primary-blue);
+    position: fixed;
+    bottom: 100px;
+    right: 30px;
+    display: none;
+}
+
+.chat{
+    background-image: url(https://a.sfdcstatic.com/shared/chat/chat-icon.svg);
+    background-size: 40%;
+    bottom: 30px;
+    right: 30px;
 }
