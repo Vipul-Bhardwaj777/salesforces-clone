@@ -1,400 +1,508 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Salesforces-clone</title>
-    <link rel="shortcut icon" href="media/logo-salesforce.svg" type="image/x-icon">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="media-queries.css">
+    <link
+      rel="shortcut icon"
+      href="media/logo-salesforce.svg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="media-queries.css" />
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     <main class="overflow">
-
-    <nav class=" flex">
+      <nav class="flex">
         <div class="wrap flex">
-            <i id="ham-click" class="ham fa-solid fa-bars"></i>
-            <div class="hampage">
-                <ul class="big-btns">
-                    <li><button class="flex"><h3>Products</h3><i class="fa-solid fa-chevron-right"></i></button></li>
-                    <li><button class="flex"><h3>Industries</h3><i class="fa-solid fa-chevron-right"></i></button></li>
-                    <li><button class="flex"><h3>Learning</h3><i class="fa-solid fa-chevron-right"></i></button></li>
-                    <li><button class="flex"><h3>Support</h3><i class="fa-solid fa-chevron-right"></i></button></li>
-                    <li><button class="flex"><h3>Company</h3><i class="fa-solid fa-chevron-right"></i></button></li>
-                    <li><button class="flex"><h3>Salesforce+</h3><i class="fa-solid fa-chevron-right"></i></button></li>
-                </ul>
-    
-                <ul class="small-btns">
-                    <li><button class="flex"><div class="ham-bottom"><i class="fa-solid fa-user"></i> Login </div><i class="fa-solid fa-chevron-right"></i></button></li>
-                    <li><button class="flex"><div class="ham-bottom"><i class="fa-solid fa-phone"></i> Contact </div><i class="fa-solid fa-chevron-right"></i></button></li>
-                    <li><button class="flex"><div class="ham-bottom"><i class="  fa-sharp fa-solid fa-globe"></i> Change Region </div><i class="fa-solid fa-chevron-right"></i></button></li>
-                </ul>
-                <p>1800-420-7332</p>
-            </div>
-        <a href="/"><img src="media/logo-salesforce.svg" alt="logo"></a>
+          <i id="ham-click" class="ham fa-solid fa-bars"></i>
+          <div class="hampage">
+            <ul class="big-btns">
+              <li>
+                <button class="flex">
+                  <h3>Products</h3>
+                  <i class="fa-solid fa-chevron-right"></i>
+                </button>
+              </li>
+              <li>
+                <button class="flex">
+                  <h3>Industries</h3>
+                  <i class="fa-solid fa-chevron-right"></i>
+                </button>
+              </li>
+              <li>
+                <button class="flex">
+                  <h3>Learning</h3>
+                  <i class="fa-solid fa-chevron-right"></i>
+                </button>
+              </li>
+              <li>
+                <button class="flex">
+                  <h3>Support</h3>
+                  <i class="fa-solid fa-chevron-right"></i>
+                </button>
+              </li>
+              <li>
+                <button class="flex">
+                  <h3>Company</h3>
+                  <i class="fa-solid fa-chevron-right"></i>
+                </button>
+              </li>
+              <li>
+                <button class="flex">
+                  <h3>Salesforce+</h3>
+                  <i class="fa-solid fa-chevron-right"></i>
+                </button>
+              </li>
+            </ul>
+
+            <ul class="small-btns">
+              <li>
+                <button class="flex">
+                  <div class="ham-bottom">
+                    <i class="fa-solid fa-user"></i> Login
+                  </div>
+                  <i class="fa-solid fa-chevron-right"></i>
+                </button>
+              </li>
+              <li>
+                <button class="flex">
+                  <div class="ham-bottom">
+                    <i class="fa-solid fa-phone"></i> Contact
+                  </div>
+                  <i class="fa-solid fa-chevron-right"></i>
+                </button>
+              </li>
+              <li>
+                <button class="flex">
+                  <div class="ham-bottom">
+                    <i class="fa-sharp fa-solid fa-globe"></i> Change Region
+                  </div>
+                  <i class="fa-solid fa-chevron-right"></i>
+                </button>
+              </li>
+            </ul>
+            <p>1800-420-7332</p>
+          </div>
+          <a href="/"><img src="media/logo-salesforce.svg" alt="logo" /></a>
         </div>
-        
-        
+
         <ul class="nav-list flex">
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Industries</a></li>
-            <li><a href="#">Learning</a></li>
-            <li><a href="#">Support</a></li>
-            <li><a href="#">company</a></li>
-            <li><a href="#">Salesforce+</a></li>
-            <li><a style="text-decoration: underline;" href="#">contactUs</a></li>
-            <button class="search"><i class="  fa-sharp fa-solid fa-2x fa-magnifying-glass"></i></button>
-            <button class="globe"><i class="  fa-sharp fa-solid fa-globe"></i></button>
-            <button class="login"><i class="fa-solid fa-user"></i><span class="hide-txt">Login</span> </button>
-            <button class="try-btn primary-btn">Try for free</button>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Industries</a></li>
+          <li><a href="#">Learning</a></li>
+          <li><a href="#">Support</a></li>
+          <li><a href="#">company</a></li>
+          <li><a href="#">Salesforce+</a></li>
+          <li><a style="text-decoration: underline" href="#">contactUs</a></li>
+          <button class="search">
+            <i class="fa-sharp fa-solid fa-2x fa-magnifying-glass"></i>
+          </button>
+          <button class="globe">
+            <i class="fa-sharp fa-solid fa-globe"></i>
+          </button>
+          <button class="login">
+            <i class="fa-solid fa-user"></i><span class="hide-txt">Login</span>
+          </button>
+          <button class="try-btn primary-btn">Try for free</button>
         </ul>
+      </nav>
 
-    </nav>
-
-    <div class="top-banner">
+      <div class="top-banner">
         <div class="container">
-            <div class="banner flex">
-                <img src="media/df-white.png" alt="">
+          <div class="banner flex">
+            <img src="media/df-white.png" alt="" />
             <p>Calling all Trailblazers. Dreamforce registration is open.</p>
             <a href="#">Register Now</a>
-            </div>
+          </div>
         </div>
-        
-        
-    </div>
+      </div>
 
-
-    <div class="hero-bg">
-
+      <div class="hero-bg">
         <header class="container hero-section flex">
-
-            <div class="left flex">
-                <h1>AI + Data + CRM = more sales and happier customers.</h1>
-                <p>Discover trusted AI that helps you connect with your customers in a whole new way.
-                </p>
-                <div class="btns flex">
-                    <button class="primary-btn">Start free trial</button>
-                    <button class="secondary-btn">Watch demo</button>
-
-                </div>
-
+          <div class="left flex">
+            <h1>AI + Data + CRM = more sales and happier customers.</h1>
+            <p>
+              Discover trusted AI that helps you connect with your customers in
+              a whole new way.
+            </p>
+            <div class="btns flex">
+              <button class="primary-btn">Start free trial</button>
+              <button class="secondary-btn">Watch demo</button>
             </div>
+          </div>
 
-            <div class="right flex">
-                <img src="media/heroimg.png" alt="">
-            </div>
-
-
-
+          <div class="right flex">
+            <img src="media/heroimg.png" alt="" />
+          </div>
         </header>
-    </div>
-     
-  
+      </div>
 
-    <div class="card-bg">
-
+      <div class="card-bg">
         <section class="feature container flex">
-            <h2>Learn what Salesforce products can do for you.</h2>
+          <h2>Learn what Salesforce products can do for you.</h2>
 
-            <div class="containeer">
-                <div class="card-section flex">
+          <div class="containeer">
+            <div class="card-section flex">
+              <div class="cards">
+                <img src="media/pb-hp-product-smb_icon-1.jpg" alt="" />
+                <h3><a href="#" class="card-heading">Small Business</a></h3>
+                <p>
+                  Sales, service, and email outreach tools in a single app and
+                  much more.
+                </p>
+                <a href="#">Try for free</a>
+              </div>
 
-                    <div class="cards ">
-                        <img src="media/pb-hp-product-smb_icon-1.jpg" alt="">
-                        <h3><a href="#" class="card-heading">Small Business</a></h3>
-                        <p>Sales, service, and email outreach tools in a single app and much more.</p>
-                        <a href="#">Try for free</a>
-                    </div>
+              <div class="cards">
+                <img src="media/pb-hp-product-smb_icon-2.jpg" alt="" />
+                <h3><a href="#" class="card-heading">Sales Cloud</a></h3>
+                <p>
+                  Close more deals and speed up growth with the #1 CRM here with
+                  us.
+                </p>
+                <a href="#">Watch demo</a>
+              </div>
 
-                    <div class="cards">
-                        <img src="media/pb-hp-product-smb_icon-2.jpg" alt="">
-                        <h3><a href="#" class="card-heading">Sales Cloud</a></h3>
-                        <p>Close more deals and speed up growth with the #1 CRM here with us.</p>
-                        <a href="#">Watch demo</a>
-                    </div>
+              <div class="cards">
+                <img src="media/pb-hp-product-smb_icon-3.jpg" alt="" />
+                <h3><a href="#" class="card-heading">Service Cloud</a></h3>
+                <p>
+                  Make customers happy faster and build loyalty with Service
+                  Cloud.
+                </p>
+                <a href="#">Watch demo</a>
+              </div>
 
-                    <div class="cards">
-                        <img src="media/pb-hp-product-smb_icon-3.jpg" alt="">
-                        <h3><a href="#" class="card-heading">Service Cloud</a></h3>
-                        <p>Make customers happy faster and build loyalty with Service Cloud.</p>
-                        <a href="#">Watch demo</a>
-                    </div>
-
-                    <div class="cards">
-                        <img src="media/pb-hp-product-smb_icon-4.jpg" alt="">
-                        <h3><a href="#" class="card-heading">Marketing Cloud</a></h3>
-                        <p>Build customer relationships for life with data-first digital marketing.</p>
-                        <a href="#">Watch demo</a>
-                    </div>
-
-                </div>
+              <div class="cards">
+                <img src="media/pb-hp-product-smb_icon-4.jpg" alt="" />
+                <h3><a href="#" class="card-heading">Marketing Cloud</a></h3>
+                <p>
+                  Build customer relationships for life with data-first digital
+                  marketing.
+                </p>
+                <a href="#">Watch demo</a>
+              </div>
             </div>
+          </div>
 
-            <button class="feature-btn secondary-btn">View all our products</button>
+          <button class="feature-btn secondary-btn">
+            View all our products
+          </button>
         </section>
-    </div>
+      </div>
 
-
-    <section class="cta-section  flex ">
+      <section class="cta-section flex">
         <h2>We bring companies and customers together</h2>
-        <p>Salesforce is the world’s most trusted customer relationship management (CRM) platform. We help your
-            marketing, sales, commerce, service and IT teams work as one from anywhere — so you can keep your customers
-            happy everywhere.</p>
+        <p>
+          Salesforce is the world’s most trusted customer relationship
+          management (CRM) platform. We help your marketing, sales, commerce,
+          service and IT teams work as one from anywhere — so you can keep your
+          customers happy everywhere.
+        </p>
         <div class="btns flex">
-            <button class="primary-btn">Start free trial</button>
-            <button class="secondary-btn">Watch demo</button>
-
+          <button class="primary-btn">Start free trial</button>
+          <button class="secondary-btn">Watch demo</button>
         </div>
-    </section>
+      </section>
 
-    <section class="cta-section2 flex">
-        <h2 style="font-size: 32px;">Over 150,000 companies, both big and small, are growing their business with
-            Salesforce.</h2>
+      <section class="cta-section2 flex">
+        <h2 style="font-size: 32px">
+          Over 150,000 companies, both big and small, are growing their business
+          with Salesforce.
+        </h2>
 
         <button class="secondary-btn">View all customers</button>
-    </section>
+      </section>
 
-    <div class="feature-hue">
+      <div class="feature-hue">
         <div class="bg-companies">
-            <section class="container companies flex">
-                <div class="small-cards flex">
-                    <img src="media/in-hp-min-logo-balaji.png" alt="">
-                </div>
-                <div class="small-cards flex">
-                    <img src="media/in-hp-min-logo-flame.png" alt="">
-                </div>
-                <div class="small-cards flex">
-                    <img src="media/in-hp-min-logo-genpact.png" alt="">
-                </div>
-                <div class="small-cards flex">
-                    <img src="media/in-hp-min-logo-godrejboyce.png" alt="">
-                </div>
-                <div class="small-cards flex">
-                    <img src="media/in-hp-min-logo-mahindra.png" alt="">
-                </div>
-                <div class="small-cards flex">
-                    <img src="media/in-hp-min-logo-pepe.png" alt="">
-                </div>
-                <div class="small-cards flex">
-                    <img src="media/in-hp-min-logo-razorpay.png" alt="">
-                </div>
-                <div class="small-cards flex">
-                    <img src="media/in-hp-min-logo-secutech.png" alt="">
-                </div>
-                
-
-            </section>
-
-            <div class="overlap">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,160L80,186.7C160,213,320,267,480,293.3C640,320,800,320,960,282.7C1120,245,1280,171,1360,133.3L1440,96L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
+          <section class="container companies flex">
+            <div class="small-cards flex">
+              <img src="media/in-hp-min-logo-balaji.png" alt="" />
             </div>
+            <div class="small-cards flex">
+              <img src="media/in-hp-min-logo-flame.png" alt="" />
+            </div>
+            <div class="small-cards flex">
+              <img src="media/in-hp-min-logo-genpact.png" alt="" />
+            </div>
+            <div class="small-cards flex">
+              <img src="media/in-hp-min-logo-godrejboyce.png" alt="" />
+            </div>
+            <div class="small-cards flex">
+              <img src="media/in-hp-min-logo-mahindra.png" alt="" />
+            </div>
+            <div class="small-cards flex">
+              <img src="media/in-hp-min-logo-pepe.png" alt="" />
+            </div>
+            <div class="small-cards flex">
+              <img src="media/in-hp-min-logo-razorpay.png" alt="" />
+            </div>
+            <div class="small-cards flex">
+              <img src="media/in-hp-min-logo-secutech.png" alt="" />
+            </div>
+          </section>
+
+          <div class="overlap">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+              <path
+                fill="#fff"
+                fill-opacity="1"
+                d="M0,160L80,186.7C160,213,320,267,480,293.3C640,320,800,320,960,282.7C1120,245,1280,171,1360,133.3L1440,96L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+              ></path>
+            </svg>
+          </div>
         </div>
-        
-    </div>
+      </div>
 
-    <section class="container feature2 flex">
+      <section class="container feature2 flex">
         <div class="feat-left flex">
-            <h2>Try Salesforce for free. No credit card required, no software to install.</h2>
-            <div class="btns flex">
-                <button class="primary-btn">Start free trial</button>
-                <button class="secondary-btn">See price</button>
-
-            </div>
+          <h2>
+            Try Salesforce for free. No credit card required, no software to
+            install.
+          </h2>
+          <div class="btns flex">
+            <button class="primary-btn">Start free trial</button>
+            <button class="secondary-btn">See price</button>
+          </div>
         </div>
 
         <div class="feat-right">
-            <img src="media/php-free-trial-mobile-940w.png" alt="">
+          <img src="media/php-free-trial-mobile-940w.png" alt="" />
         </div>
+      </section>
 
-    </section>
-
-    <div class="feature-hue">
+      <div class="feature-hue">
         <div class="feature4-bg">
-            <section class="container flex feature4">
-                <h2>Our technology helps people create better jobs, lives, companies, and communities.</h2>
+          <section class="container flex feature4">
+            <h2>
+              Our technology helps people create better jobs, lives, companies,
+              and communities.
+            </h2>
 
-                <div class="feat4-cards flex">
-                    <div class="card1 flex">
-                        <div class="card1-img">
-                            <img src="media/group-201168.png" alt="">
-                        </div>
-
-                        <p>Technology given for free or discounted</p>
-                    </div>
-
-                    <div class="card1 flex">
-                        <div class="card1-img">
-                            <img src="media/group-201169.png" alt="">
-                        </div>
-
-                        <p>Fortune 100 Best Companies to Work For 2023
-                            <br> (15 years in a row)</p>
-                    </div>/
-
-                    <div class="card1 flex">
-                        <div class="card1-img">
-                            <img src="media/group-201170.png" alt="">
-                        </div>
-
-                        <p>Fortune World’s Most Admired Companies 2023</p>
-                    </div>
-
+            <div class="feat4-cards flex">
+              <div class="card1 flex">
+                <div class="card1-img">
+                  <img src="media/group-201168.png" alt="" />
                 </div>
-                
-            </section>
-            <div class="overlap">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffff" fill-opacity="1" d="M0,160L80,186.7C160,213,320,267,480,293.3C640,320,800,320,960,282.7C1120,245,1280,171,1360,133.3L1440,96L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
+
+                <p>Technology given for free or discounted</p>
+              </div>
+
+              <div class="card1 flex">
+                <div class="card1-img">
+                  <img src="media/group-201169.png" alt="" />
+                </div>
+
+                <p>
+                  Fortune 100 Best Companies to Work For 2023 <br />
+                  (15 years in a row)
+                </p>
+              </div>
+              /
+
+              <div class="card1 flex">
+                <div class="card1-img">
+                  <img src="media/group-201170.png" alt="" />
+                </div>
+
+                <p>Fortune World’s Most Admired Companies 2023</p>
+              </div>
             </div>
+          </section>
+          <div class="overlap">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+              <path
+                fill="#ffff"
+                fill-opacity="1"
+                d="M0,160L80,186.7C160,213,320,267,480,293.3C640,320,800,320,960,282.7C1120,245,1280,171,1360,133.3L1440,96L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+              ></path>
+            </svg>
+          </div>
         </div>
-       
-    </div>
+      </div>
 
-    <section class="container feature3">
-        <section class="cta-section  flex ">
-            <h2>Questions? We’ll put you on the right path.</h2>
-            <p class="fet3-p">Ask about Salesforce products, pricing, implementation, or anything else. Our highly
-                trained reps are standing by, ready to help.</p>
-            <div class="cta1-btns flex">
-                <button class="primary-btn">contact us</button>
-                <a href="#">Editions & pricing</a>
-            </div>
+      <section class="container feature3">
+        <section class="cta-section flex">
+          <h2>Questions? We’ll put you on the right path.</h2>
+          <p class="fet3-p">
+            Ask about Salesforce products, pricing, implementation, or anything
+            else. Our highly trained reps are standing by, ready to help.
+          </p>
+          <div class="cta1-btns flex">
+            <button class="primary-btn">contact us</button>
+            <a href="#">Editions & pricing</a>
+          </div>
         </section>
+      </section>
 
-
-    </section>
-
-    <footer class="container flex">
-
+      <footer class="container flex">
         <div class="column-1 flex">
-            <a href="#"><img src="media/logo-salesforce.svg" alt=""></a>
+          <a href="#"><img src="media/logo-salesforce.svg" alt="" /></a>
 
-            <div class="links-f">
-                <a href="#"><i class=" fa-brands fa-2x fa-square-facebook"></i></a>
-                <a href="#"><i class=" fa-brands fa-2x fa-square-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#"><i class=" fa-brands fa-2x fa-square-instagram"></i></a>
-                <a href="#"><i class=" fa-brands fa-2x fa-square-youtube"></i></a>
-            </div>
+          <div class="links-f">
+            <a href="#"><i class="fa-brands fa-2x fa-square-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-2x fa-square-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-2x fa-square-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-2x fa-square-youtube"></i></a>
+          </div>
 
-            <p>Call us at 1800-420-7332</p>
+          <p>Call us at 1800-420-7332</p>
         </div>
 
         <div class="column-2 flex">
-            <h3>New to Salesforce ?</h3>
-            <a href="#">
-                <p>Why Salesforce</p>
-            </a>
-            <a href="#">
-                <p>What is CRM?</p>
-            </a><a href="#">
-                <p>Explore All Products</p>
-            </a><a href="#">
-                <p>What is Cloud Computing?</p>
-            </a><a href="#">
-                <p>Customer Success</p>
-            </a><a href="#">
-                <p>Product Pricing</p>
-            </a>
+          <h3>New to Salesforce ?</h3>
+          <a href="#">
+            <p>Why Salesforce</p>
+          </a>
+          <a href="#"> <p>What is CRM?</p> </a
+          ><a href="#"> <p>Explore All Products</p> </a
+          ><a href="#"> <p>What is Cloud Computing?</p> </a
+          ><a href="#"> <p>Customer Success</p> </a
+          ><a href="#">
+            <p>Product Pricing</p>
+          </a>
         </div>
 
         <div class="column-2a flex">
-            <h3>About Salesforce</h3>
-            <a href="#">
-                <p>Our Story</p>
-            </a>
-            <a href="#">
-                <p>Careers</p>
-            </a><a href="#">
-                <p>Press <i class="fa-solid fa-arrow-up-right-from-square"></i></p>
-            </a><a href="#">
-                <p>Blog <i class="fa-solid fa-arrow-up-right-from-square"></i></p>
-            </a><a href="#">
-                <p>Security and Performance <i class="fa-solid fa-arrow-up-right-from-square"></i></p>
-            </a><a href="#">
-                <p>Salesforce.org <i class="fa-solid fa-arrow-up-right-from-square"></i></p>
-            </a>
-            <a href="#">
-                <p>Best CRM Software</p>
-            </a>
-            </a><a href="#">
-                <p>Sustainability <i class="fa-solid fa-arrow-up-right-from-square"></i></p>
-            </a>
-            </a><a href="#">
-                <p>Legal <i class="fa-solid fa-arrow-up-right-from-square"></i></p>
-            </a>
-            <a href="#">
-                <p>Give us your Feedback</p>
-            </a>
+          <h3>About Salesforce</h3>
+          <a href="#">
+            <p>Our Story</p>
+          </a>
+          <a href="#"> <p>Careers</p> </a
+          ><a href="#">
+            <p>
+              Press <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </p> </a
+          ><a href="#">
+            <p>
+              Blog <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </p> </a
+          ><a href="#">
+            <p>
+              Security and Performance
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </p> </a
+          ><a href="#">
+            <p>
+              Salesforce.org
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </p>
+          </a>
+          <a href="#">
+            <p>Best CRM Software</p>
+          </a>
+          <a href="#">
+            <p>
+              Sustainability
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </p>
+          </a>
+          <a href="#">
+            <p>Legal <i class="fa-solid fa-arrow-up-right-from-square"></i></p>
+          </a>
+          <a href="#">
+            <p>Give us your Feedback</p>
+          </a>
         </div>
 
         <div class="column-2 flex">
-            <h3>Popular links</h3>
-            </a><a href="#">
-                <p>New Release Features <i class="fa-solid fa-arrow-up-right-from-square"></i></p>
-            </a>
-            </a><a href="#">
-                <p>Salesforce Mobile App</i></p>
-            </a>
-            </a><a href="#">
-                <p>Business App Store <i class="fa-solid fa-arrow-up-right-from-square"></i></p>
-            </a>
-            </a><a href="#">
-                <p>Dreamforce <i class="fa-solid fa-arrow-up-right-from-square"></i></p>
-            </a>
-            </a><a href="#">
-                <p>CRM Software</i></p>
-            </a>
-            </a><a href="#">
-                <p>Salesforce Plus <i class="fa-solid fa-arrow-up-right-from-square"></i></p>
-            </a>
-            </a><a href="#">
-                <p>Salesforce for startups <i class="fa-solid fa-arrow-up-right-from-square"></i></p>
-            </a>
+          <h3>Popular links</h3>
+          <a href="#">
+            <p>
+              New Release Features
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </p>
+          </a>
+          <a href="#">
+            <p>Salesforce Mobile App</p>
+          </a>
+          <a href="#">
+            <p>
+              Business App Store
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </p>
+          </a>
+          <a href="#">
+            <p>
+              Dreamforce <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </p>
+          </a>
+          <a href="#">
+            <p>CRM Software</p>
+          </a>
+          <a href="#">
+            <p>
+              Salesforce Plus
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </p>
+          </a>
+          <a href="#">
+            <p>
+              Salesforce for startups
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </p>
+          </a>
         </div>
+      </footer>
 
-    </footer>
-
-    <section class="subfooter flex ">
-
-        <button class="secondary-btn"><i class="fa-sharp fa-solid fa-globe"></i>  Worldwide <i class="fa-solid fa-caret-up"></i></button>
+      <section class="subfooter flex">
+        <button class="secondary-btn">
+          <i class="fa-sharp fa-solid fa-globe"></i> Worldwide
+          <i class="fa-solid fa-caret-up"></i>
+        </button>
         <div class="sub-container">
-            <p>© Copyright 2023 Salesforce, Inc. <span style="font-size: 12px;text-decoration: underline; color: rgb(74, 159, 244);;">All rights reserved</span>. Various trademarks held by their respective owners.</p>
-             <a href="#">Legal</a><a href="#">Terms of Service</a><a href="#">Privacy</a><a href="#">Responsible Disclosure</a><a href="#">Trust</a><a href="#">Contact</a><a href="#">Cookie Prefrences</a><a href="#">Your Privacy Choices</a>
+          <p>
+            © Copyright 2023 Salesforce, Inc.
+            <span
+              style="
+                font-size: 12px;
+                text-decoration: underline;
+                color: rgb(74, 159, 244);
+              "
+              >All rights reserved</span
+            >. Various trademarks held by their respective owners.
+          </p>
+          <a href="#">Legal</a><a href="#">Terms of Service</a
+          ><a href="#">Privacy</a><a href="#">Responsible Disclosure</a
+          ><a href="#">Trust</a><a href="#">Contact</a
+          ><a href="#">Cookie Prefrences</a><a href="#">Your Privacy Choices</a>
         </div>
-    </section>
-    
-    <div class="contact flex ">
+      </section>
 
-        <div class="imgc"><img src="media/chat-agent-image-2x.png" alt=""></div>
+      <div class="contact flex">
+        <div class="imgc">
+          <img src="media/chat-agent-image-2x.png" alt="" />
+        </div>
         <p>Let's Chat</p>
-       </div>
+      </div>
 
-       <div class="small-contact">
+      <div class="small-contact">
         <a href="/"></a>
-       </div>
+      </div>
 
-       <div class="chat small-contact">
-        <a href="/" ></a>
-       </div>
+      <div class="chat small-contact">
+        <a href="/"></a>
+      </div>
+    </main>
 
-</main>
-
-    <script src="https://kit.fontawesome.com/931580414f.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/931580414f.js"
+      crossorigin="anonymous"
+    ></script>
     <script>
-        const hamClick = document.querySelector('#ham-click');
-        const hamPage = document.querySelector('.hampage');
-        const hamIcon = document.querySelector('.ham');
-        const xMark = document.querySelector('.xmark');
+      const hamClick = document.querySelector("#ham-click");
+      const hamPage = document.querySelector(".hampage");
+      const hamIcon = document.querySelector(".ham");
+      const xMark = document.querySelector(".xmark");
 
-        hamClick.addEventListener('click', () => {
-            hamPage.classList.toggle('active');
-        });
-
+      hamClick.addEventListener("click", () => {
+        hamPage.classList.toggle("active");
+      });
     </script>
-</body>
-
+  </body>
 </html>
